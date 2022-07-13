@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Pranav Bobde" />
+    <meta name="description" content="Practising HTML" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <title>MY HTML</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Hello World!</h1>
+        <figure>
+          <img
+            src="/html_logo_300x300.png"
+            alt="HTML Logo"
+            title="What is this?"
+            width="300"
+            height="300"
+          />
+          <figcaption>HTML Image Caption</figcaption>
+        </figure>
+        <nav aria-labelledby="primary-nav">
+          <h2 id="primary-nav">Primary Nav</h2>
+          <ul>
+            <li>
+              <a href="#section1">Section 1</a>
+            </li>
+            <li>
+              <a href="#section2">Section 2</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <article>
+        <section id="section1">
+          <h2>First Para</h2>
+          <p>My first &nbsp; is a webpage.</p>
+          <ol>
+            <li>
+              First Item - <a href="https://developer.mozilla.org">MDN</a>
+            </li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Who is the most <mark>intelligent</mark> & the
+                <mark>richest</mark> person on the planet?
+              </summary>
+              <p>Elon Musk</p>
+            </details>
+          </aside>
+          <hr />
+        </section>
+      </article>
+
+      <article>
+        <section id="section2">
+          <h2>This is h2 title</h2>
+          <p>This is a body of the h2 header.</p>
+          <ul>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+          </ul>
+          <hr />
+        </section>
+      </article>
+      <section id="sesction3">
+        <h2>This is another h2 title</h2>
+        <p>
+          This is a also a body of a <abbr title="Header 2">h2</abbr> header.
+        </p>
+        But
+        <figure>
+          <code> &lt;h1&gt; Code inside figure &lt;/h1&gt; </code>
+        </figure>
+        <p>
+          <em>Note that this is <strong>different</strong></em>
+        </p>
+        <dl>
+          <dt>First Desc Term</dt>
+          <dd>First Desc Data</dd>
+          <dt>Second Desc Term</dt>
+          <dd>Second Desc Data</dd>
+          <dt>Third Desc Term</dt>
+          <dd>Third Desc Data</dd>
+        </dl>
+        <br />
+        <table>
+          <caption>
+            My Daily Schedule
+          </caption>
+          <thead>
+            <tr>
+                <th></th>
+              <th scope="col">Time</th>
+              <th scope="col">Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2">Morning</th>
+              <td>
+                <time datetime="08:00"> 8am </time> -
+                <time datetime="11:00"> 11am </time>
+              </td>
+              <td>Write code</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="11:00"> 11am </time> -
+                <time datetime="12:00"> 12pm </time>
+              </td>
+              <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+              <td>
+                <time datetime="12:00"> 12pm </time> -
+                <time datetime="17:00"> 5pm </time>
+              </td>
+              <td>Development</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Evening</th>
+              <td rowspan="2">Remaining Time</td>
+              <td>Free Time</td>
+            </tr>
+            <tr>
+              <td>Sleep</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">That's all that i do mainichi!</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&lt; &copy; <a href="about.html">Pranav Bobde</a> &gt;</p>
+
+      <p>
+        <a href="#">Back To Top</a>
+      </p>
+    </footer>
+  </body>
+</html>
